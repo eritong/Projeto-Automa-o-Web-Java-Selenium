@@ -34,7 +34,7 @@ public class DrogaRaia {
 
         navegador.findElement(By.cssSelector("p[data-qa=account]")).click();
         navegador.findElement(By.cssSelector("button[data-qa=header_menu_btn_login]")).click();
-        navegador.findElement(By.id("emailCpf")).sendKeys("23091761843");
+        navegador.findElement(By.id("emailCpf")).sendKeys("x");
         navegador.findElement(By.id("password")).sendKeys("1109151617");
         navegador.findElement(By.cssSelector("button[data-qa=btn_signin]")).click();
         WebElement me = navegador.findElement(By.cssSelector("a[data-qa=account_resume]"));
